@@ -1,10 +1,10 @@
-import { useState } from 'hono/jsx'
-import honoLogo from './assets/hono.svg'
-import viteLogo from '/vite.svg'
-import './app.css'
+import { useState } from "hono/jsx";
+import honoLogo from "./assets/hono.svg";
+import viteLogo from "/vite.svg";
+import "./app.css";
 
 export function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
@@ -29,5 +29,5 @@ export function App() {
         Click on the Vite and Hono logos to learn more
       </p>
     </>
-  )
+  );
 }
